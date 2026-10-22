@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# SQLite database (each person gets their own local DB with seed data)
+data/
+
+# Frontend build output (rebuilt locally from source)
+client/dist/
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
